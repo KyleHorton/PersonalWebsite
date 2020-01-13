@@ -165,6 +165,7 @@ a.envelope{
 .ed-1{
     padding-top: 5px;
     margin-bottom: 50px;
+    
 }
 .ed-3{
     padding-bottom: 20px;
@@ -208,6 +209,7 @@ a.envelope{
 }
 
 .year{
+    color: black;
     text-align: right;
 }
 
