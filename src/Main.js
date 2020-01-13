@@ -31,12 +31,12 @@ function Main(){
                     Management. I have experience in software development, web and app development, game development, and software quality assurance. 
                     I am a self-motivated learner and can pick up new technology fairly quickly. I hope to be able to utilize my diverse 
                     skillset and high energy to grow my career as well as strengthen my technological knowledge. Additionally, I 
-                    have strong passion for baseball with interests in baseball operations and how data analysis can be used 
+                    have a strong passion for baseball with interests in baseball operations and how data analysis can be used 
                     to make smarter and more effective decisions. In my free time, I enjoy writing MLB analysis articles where I 
-                    will analyze a player's performance through the use of advanced metrics. You can find my work&nbsp;
+                    analyze a player's performance through the use of advanced metrics. You can find my work&nbsp;
                      <a target="_blank" value=""href={"https://www.pitcherlist.com/author/kyle-horton/"}>here.</a><br></br> <br></br>
 
-                    Below you will find links to my LinkedIn, GitHub repository, email, and a pdf download of my résumé. For more information on
+                    Below you will find links to my LinkedIn, GitHub repository, email, and a PDF download of my résumé. For more information on
                     my work experience and projects, please click the 'Projects and Experience' tab above!
                     
                     </p>
