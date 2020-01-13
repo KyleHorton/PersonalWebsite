@@ -1,38 +1,234 @@
-.App {
-  text-align: center;
+.App{
+    padding-top: 100px;
+    width: 100%;
+    height: 722px;
+    background-image: linear-gradient(rgba(148, 153, 161, 0.372), rgb(255, 255, 255));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fullNav{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 500
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+    background-image: url("./img/softwareHeader.jpg");
+    font-size: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0) ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbarText-title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
 }
 
-.App-link {
-  color: #61dafb;
+.navbarText{
+    font-family: sans-serif;
+    position: sticky;
+    padding-left: 21px;
+    color: rgb(255, 255, 255);
+}
+.activeLink{
+    color: white;
+    text-decoration: underline rgb(32, 214, 255);
+}
+.navbarText:hover{
+    color: white;
+    text-decoration: underline black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main{
+    padding-top: 15px;
+    text-align: center;
+    height: 100%;
 }
+
+.me{
+    width: 200px;
+    border-radius: 50%;
+    border-style: outset;
+}
+
+.name{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -15px;
+}
+
+.interests{
+    width: 100%;
+    margin-bottom: -20px;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline rgb(8, 41, 74);
+}
+
+.eng{
+    text-align: right;
+    border-right: 1px solid #333;
+}
+
+.baseball{
+    text-align: left;
+}
+
+.details{
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+.social-container{
+    text-align: center;
+}
+
+a.social{ 
+    margin: 0 2rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover{
+    transform: translateY(-2px);
+}
+
+a.github{
+    color: black;
+}
+
+a.envelope{
+    color: black;
+}
+
+.main-footer{
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-container{
+    background-color: rgb(7, 8, 26);
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border-top: 2px solid rgb(186, 186, 186) ;
+}
+
+.footer-p{
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: 'Oswald';
+}
+
+.work-header{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.work{
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.education{
+    padding-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.first-col{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-col{
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ed-1{
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+.ed-3{
+    padding-bottom: 20px;
+    padding-left: 14px;
+}
+.ed-4{
+    margin-bottom: 56px;
+}
+
+.technologies{
+    width: 100%;
+
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.first-col-work{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.workExp{
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.mlb{
+    margin-top: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(6, 6, 94);
+    height: 20px;
+}
+
+.mlb-2{
+    padding-left: 15px;
+}
+
+.year{
+    text-align: right;
+}
+
+.desc{
+    margin-top: -11px;
+}
+
+.project{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.projectNext{
+    width: 100%;
+}
+
+.projectLast{
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+
+
+
